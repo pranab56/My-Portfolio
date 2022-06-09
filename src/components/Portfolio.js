@@ -8,11 +8,13 @@ import img3 from '../image/Screenshot_2.png';
 const Portfolio = () => {
     return (
         <div>
-            <h3 className='text-center text-3xl text-green-600 font-serif mt-32'>My Website</h3>
-            <div className="bg-amber-700 mt-3 mx-96 h-1 text-center"></div>
-            <div id='portfolio' className='grid lg:grid-cols-3 sm:grid-cols-1 mt-32'>
+            <h3 className='text-center text-3xl text-green-600 font-serif mt-32' data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">My Website</h3>
+            <div className="bg-amber-700 mt-3 mx-96 h-1 text-center" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom"></div>
+            <div id='portfolio' className='grid lg:grid-cols-3 sm:grid-cols-1 mt-32' data-aos="fade-up">
            
-           <div class="max-w-xs mx-auto overflow-hidden bg-slate-300 rounded-lg shadow-lg dark:bg-gray-800">
+           <div class="max-w-md mx-4 overflow-hidden bg-slate-300 rounded-lg shadow-lg dark:bg-gray-800">
                <img class="object-fill w-full h-56" src={img1} alt="avatar"/>
                <p className='font-serif ml-2 mt-2'><span className='font-bold'>Details : </span> Through this website Ezion users can easily purchase electrical parts and according to the user's choice.</p>
                <div class="py-5 text-center">
@@ -31,7 +33,7 @@ const Portfolio = () => {
                   </div>
                </div>
            </div>
-           <div class="max-w-xs mx-auto overflow-hidden bg-slate-300 rounded-lg shadow-lg dark:bg-gray-800">
+           <div class="max-w-md mx-4 mx-auto overflow-hidden bg-slate-300 rounded-lg shadow-lg dark:bg-gray-800">
                <img class="object-fill w-full h-56" src={img2} alt="avatar"/>
                <p className='font-serif ml-2 mt-2'><span className='font-bold'>Details : </span> With this, different types of fruits can be kept in stock and how much will be kept in stock can be easily calculated.</p>
                <div class="py-5 text-center">
@@ -50,7 +52,7 @@ const Portfolio = () => {
                   </div>
                </div>
            </div>
-           <div class="max-w-xs mx-auto overflow-hidden bg-slate-300 rounded-lg shadow-lg dark:bg-gray-800">
+           <div class="max-w-md mx-4 mx-auto overflow-hidden bg-slate-300 rounded-lg shadow-lg dark:bg-gray-800">
                <img class="object-fill w-full h-56" src={img3} alt="avatar"/>
                <p className='font-serif ml-2 mt-2'><span className='font-bold'>Details : </span>A user will be able to easily booking website what kind of zym method to use </p>
                <div class="py-5 text-center">

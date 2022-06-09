@@ -58,9 +58,9 @@ const Navber = () => {
         </ul>
       </div>
       <div class="navbar-end ml-10">
-     <a href="https://web.facebook.com/pronab.kumar.94695/"><img  className="w-8 h-8 mr-5 bg-white rounded-full" src={facebook} alt="" /></a>
-     <a href="https://github.com/pranab56"><img className="w-8 h-8 mr-5 bg-white rounded-full" src={github} alt="" /></a>
-     <a href="https://www.linkedin.com/in/pranab-kumar/"><img className="w-8 h-8 mr-5 bg-white rounded-full" src={linkedin} alt="" /></a>
+     <a href="https://web.facebook.com/pronab.kumar.94695/" target="_blank"><img  className="w-8 h-8 mr-5 bg-white rounded-full" src={facebook} alt="" /></a>
+     <a href="https://github.com/pranab56" target="_blank"><img className="w-8 h-8 mr-5 bg-white rounded-full" src={github} alt="" /></a>
+     <a href="https://www.linkedin.com/in/pranab-kumar/" target="_blank"><img className="w-8 h-8 mr-5 bg-white rounded-full" src={linkedin} alt="" /></a>
 
     </div>
     </div>

@@ -31,11 +31,11 @@ const Contact = () => {
             
    
             <section class="w-full max-w-2xl px-6 py-4 mx-auto rounded-md mt-32 shadow-2xl shadow-md dark:bg-gray-800">
-        <h2 class="text-5xl mt-6 mb-10 font-semibold text-center dark:text-white text-white">Get in touch</h2>
+        <h2 class="text-5xl mt-6 mb-10 font-semibold text-center dark:text-white text-white" data-aos="fade-up">Get in touch</h2>
        
         
         
-       <form onSubmit={handleSubmit}>
+       <form onSubmit={handleSubmit} data-aos="fade-up">
        <div class="mt-6 ">
             <div class="items-center -mx-2 md:flex">
                 <div class="w-full mx-2">

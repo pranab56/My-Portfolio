@@ -8,9 +8,10 @@ const Expertice = () => {
  
     return (
     <div>
-        <h1 className='text-white font-bold text-5xl text-center mb-32 mt-52'>Expertise</h1>
+        <h1 className='text-white font-bold text-5xl text-center mb-32 mt-52' data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom" >Expertise</h1>
         
-        <div  className='grid sm:grid-cols-1 lg:grid-cols-2  lg:ml-32 sm:ml-5 mb-36' >
+        <div  className='grid sm:grid-cols-1 lg:grid-cols-2  lg:ml-32 sm:ml-5 mb-36' data-aos="fade-up" >
            <div className='mb-20'>
            <div className='flex'>
             <h2 className='text-white text-5xl font-sans'><CountUp duration={5} end={80}></CountUp>%</h2>
