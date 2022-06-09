@@ -1,7 +1,11 @@
 import React from 'react';
 import CountUp from 'react-countup'; 
 
+
+
 const Expertice = () => {
+
+ 
     return (
     <div>
         <h1 className='text-white font-bold text-5xl text-center mb-32 mt-52'>Expertise</h1>

@@ -3,7 +3,8 @@ import CustomLink from "../page/CustomLink";
 import './Navber.css';
 import facebook from '../svg/facebook.svg';
 import github from '../svg/github.svg';
-import linkedin from '../svg/linkedin.svg'
+import linkedin from '../svg/linkedin.svg';
+import { HashLink } from 'react-router-hash-link';
 
  
 const Navber = () => {
@@ -42,24 +43,24 @@ const Navber = () => {
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal p-0">
-          <CustomLink  className="mr-10 font-serif text-lg" to={"/home"} >
+          <HashLink  className="mr-10 font-serif text-lg" to={"#home"} >
             <span className="text-white">Home</span>
-          </CustomLink>
-          <CustomLink className="mr-10 font-serif text-lg" to={"/about"}>
+          </HashLink>
+          <HashLink className="mr-10 font-serif text-lg" to={"/home#about"}>
           <span className="text-white">About</span>
-          </CustomLink>
-          <CustomLink className="mr-10 font-serif text-lg" to={"/portfolio"}>
+          </HashLink>
+          <HashLink className="mr-10 font-serif text-lg" to={"#portfolio"}>
           <span className="text-white">Portfolio</span>
-          </CustomLink>
-          <CustomLink className="mr-10 font-serif text-lg" to={"/contact"}>
+          </HashLink>
+          <HashLink className="mr-10 font-serif text-lg" to={"#contact"}>
           <span className="text-white pb-3">Contact</span>
-          </CustomLink>
+          </HashLink>
         </ul>
       </div>
       <div class="navbar-end ml-10">
-     <a href="https://web.facebook.com/pronab.kumar.94695/"><img  className="w-10 h-19 mr-5 bg-white rounded-full" src={facebook} alt="" /></a>
-     <a href="https://github.com/pranab56"><img className="w-10 h-19 mr-5 bg-white rounded-full" src={github} alt="" /></a>
-     <a href="https://www.linkedin.com/in/pranab-kumar/"><img className="w-10 h-19 mr-5 bg-white rounded-full" src={linkedin} alt="" /></a>
+     <a href="https://web.facebook.com/pronab.kumar.94695/"><img  className="w-8 h-8 mr-5 bg-white rounded-full" src={facebook} alt="" /></a>
+     <a href="https://github.com/pranab56"><img className="w-8 h-8 mr-5 bg-white rounded-full" src={github} alt="" /></a>
+     <a href="https://www.linkedin.com/in/pranab-kumar/"><img className="w-8 h-8 mr-5 bg-white rounded-full" src={linkedin} alt="" /></a>
 
     </div>
     </div>

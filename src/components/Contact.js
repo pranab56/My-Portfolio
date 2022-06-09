@@ -15,14 +15,22 @@ const Contact = () => {
               
               });
            }
+           else{
+            swal({
+                title: "Thank You",
+                icon: "warning",
+                button: "OK",
+              
+              });
+           }
     
         })
     }
     return (
-     <div>
+     <div id='contact'>
             
    
-            <section class="w-full max-w-2xl px-6 py-4 mx-auto rounded-md shadow-md dark:bg-gray-800">
+            <section class="w-full max-w-2xl px-6 py-4 mx-auto rounded-md mt-32 shadow-2xl shadow-md dark:bg-gray-800">
         <h2 class="text-5xl mt-6 mb-10 font-semibold text-center dark:text-white text-white">Get in touch</h2>
        
         
@@ -46,7 +54,7 @@ const Contact = () => {
             <div class="w-full mt-4">
                 
 
-                <textarea placeholder='Your Message' name='message' class="block w-full h-40 px-4 py-2 outline-none name "></textarea>
+                <textarea placeholder='Your Message' name='message' class="block w-full h-40 px-4 py-2 outline-none name resize-none"></textarea>
             </div>
 
             <div class="flex justify-center mt-6">

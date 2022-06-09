@@ -9,7 +9,7 @@ import Footer from './Footer';
 
 const Home = () => {
     return (
-        <div>
+        <div id='home'>
             <Banner></Banner>
             <About></About>
             <Expertice></Expertice>
