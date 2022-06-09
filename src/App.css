@@ -4,6 +4,35 @@
   height: 40vmin;
   pointer-events: none;
 }
+.card{
+  height: 600px;
+}
+
+.card-body{
+  z-index: 4;
+  height: 400px;
+
+}
+
+.card-img{
+  z-index: 2;
+  height: 200px;
+  overflow: hidden;
+
+}
+.card-img img{
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.card-img img:hover{
+  transform: translateY(-80%);
+}
+.card-img img{
+  transition: transform 3s ease-in-out;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -17,42 +17,42 @@ const Expertice = () => {
            <div className='mb-20'>
            <div className='flex'>
             <h2 className='text-white text-5xl font-sans'><CountUp duration={5} end={80}></CountUp>%</h2>
-            <p className='text-white text-2xl font-serif ml-52'>Html/Css</p>
+            <p className='text-white text-2xl font-serif ml-44'>Html/Css</p>
             </div>
             <progress class="progress progress-warning max-w-md" value="80" max="100"></progress>
            </div>
            <div className='mb-20'>
            <div className='flex'>
             <h2 className='text-white text-5xl font-sans'><CountUp duration={5} end={90}></CountUp>%</h2>
-            <p className='text-white text-2xl font-serif ml-52'>Tailwind</p>
+            <p className='text-white text-2xl font-serif ml-44'>Tailwind</p>
             </div>
             <progress class="progress progress-warning max-w-md" value="90" max="100"></progress>
            </div>
            <div className='mb-20'>
            <div className='flex'>
             <h2 className='text-white text-5xl font-sans'><CountUp duration={5} end={70}></CountUp>%</h2>
-            <p className='text-white text-2xl font-serif ml-52'>Javascript</p>
+            <p className='text-white text-2xl font-serif ml-44'>Javascript</p>
             </div>
             <progress class="progress progress-warning max-w-md" value="70" max="100"></progress>
            </div>
            <div className='mb-20'>
            <div className='flex'>
             <h2 className='text-white text-5xl font-sans'><CountUp duration={5} end={75}></CountUp>%</h2>
-            <p className='text-white text-2xl font-serif ml-52'>React</p>
+            <p className='text-white text-2xl font-serif ml-44'>React</p>
             </div>
             <progress class="progress progress-warning max-w-md" value="75" max="100"></progress>
            </div>
-           <div>
+           <div className='mb-20'>
            <div className='flex'>
             <h2 className='text-white text-5xl font-sans'><CountUp duration={5} end={75}></CountUp>%</h2>
-            <p className='text-white text-2xl font-serif ml-52'>Firebase</p>
+            <p className='text-white text-2xl font-serif ml-44'>Firebase</p>
             </div>
             <progress class="progress progress-warning max-w-md" value="75" max="100"></progress>
            </div>
            <div className='mb-20'>
            <div className='flex'>
             <h2 className='text-white text-5xl font-sans'><CountUp duration={5} end={80}></CountUp>%</h2>
-            <p className='text-white text-2xl font-serif ml-52'>Express JS</p>
+            <p className='text-white text-2xl font-serif ml-44'>Express JS</p>
             </div>
             <progress class="progress progress-warning max-w-md" value="80" max="100"></progress>
            </div>

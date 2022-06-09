@@ -1,9 +1,12 @@
 import React from 'react';
 import link from '../svg/link.png';
 import github from '../svg/github.svg';
-import img1 from '../image/Screenshot_1.png';
-import img2 from '../image/Screenshot_25.png';
-import img3 from '../image/Screenshot_2.png';
+// import img1 from '../image/Screenshot_1.png';
+// import img2 from '../image/Screenshot_25.png';
+// import img3 from '../image/Screenshot_2.png';
+import Project1Img from '../image/project-1.png';
+import Project2Img from '../image/project-2.png';
+import Project3Img from '../image/project-3.png';
 
 const Portfolio = () => {
     return (
@@ -14,8 +17,11 @@ const Portfolio = () => {
      data-aos-anchor-placement="bottom-bottom"></div>
             <div id='portfolio' className='grid lg:grid-cols-3 sm:grid-cols-1 mt-32' data-aos="fade-up">
            
-           <div class="max-w-md mx-4 overflow-hidden bg-slate-300 rounded-lg shadow-lg dark:bg-gray-800">
-               <img class="object-fill w-full h-56" src={img1} alt="avatar"/>
+           <div class="card max-w-md mx-4 overflow-hidden bg-slate-300 rounded-lg shadow-lg dark:bg-gray-800 mb-7">
+               <div className='card-img'>
+                    <img class="object-fill" src={Project1Img} alt="avatar"/>
+               </div>
+               <div className='card-body'>
                <p className='font-serif ml-2 mt-2'><span className='font-bold'>Details : </span> Through this website Ezion users can easily purchase electrical parts and according to the user's choice.</p>
                <div class="py-5 text-center">
                    <p class="block text-2xl font-bold text-gray-800 dark:text-white">Elctrical Parts</p>
@@ -32,9 +38,13 @@ const Portfolio = () => {
                     <p className='bg-gray-300 border-2 p-1'>react-query</p>
                   </div>
                </div>
+               </div>
            </div>
-           <div class="max-w-md mx-4 mx-auto overflow-hidden bg-slate-300 rounded-lg shadow-lg dark:bg-gray-800">
-               <img class="object-fill w-full h-56" src={img2} alt="avatar"/>
+           <div class="max-w-md mx-4 mx-auto overflow-hidden bg-slate-300 rounded-lg shadow-lg dark:bg-gray-800 mb-7">
+               <div className='card-img'>
+               <img class="object-fill" src={Project2Img} alt="avatar"/>
+               </div>
+               <div className='card-body'>
                <p className='font-serif ml-2 mt-2'><span className='font-bold'>Details : </span> With this, different types of fruits can be kept in stock and how much will be kept in stock can be easily calculated.</p>
                <div class="py-5 text-center">
                    <p class="block text-2xl font-bold text-gray-800 dark:text-white">Food Ware House</p>
@@ -51,10 +61,14 @@ const Portfolio = () => {
                     
                   </div>
                </div>
+               </div>
            </div>
-           <div class="max-w-md mx-4 mx-auto overflow-hidden bg-slate-300 rounded-lg shadow-lg dark:bg-gray-800">
-               <img class="object-fill w-full h-56" src={img3} alt="avatar"/>
-               <p className='font-serif ml-2 mt-2'><span className='font-bold'>Details : </span>A user will be able to easily booking website what kind of zym method to use </p>
+           <div class="max-w-md mx-4 mx-auto overflow-hidden bg-slate-300 rounded-lg shadow-lg dark:bg-gray-800 mb-7">
+              <div className='card-img'>
+              <img class="object-fill" src={Project3Img} alt="avatar"/>
+              </div>
+              <div className='card-body'>
+              <p className='font-serif ml-2 mt-2'><span className='font-bold'>Details : </span>A user will be able to easily booking website what kind of zym method to use </p>
                <div class="py-5 text-center">
                    <p class="block text-2xl font-bold text-gray-800 dark:text-white">Gym Trainer</p>
                    <div className='flex justify-center gap-3 mt-3'>
@@ -70,6 +84,7 @@ const Portfolio = () => {
                     <p className='bg-gray-300 border-2 p-1'>react-query</p>
                   </div>
                </div>
+              </div>
            </div>
            </div>
                

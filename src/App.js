@@ -11,7 +11,7 @@ import Navber from './components/Navber';
 
 import Portfolio from './components/Portfolio';
 import Service from './components/Service';
-AOS.init();
+  
 
 function App() {
   AOS.init();
