@@ -33,10 +33,21 @@ const Navber = () => {
             tabindex="0"
             class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
-            <CustomLink to={"/home"}>Home</CustomLink>
-            <CustomLink to={"/about"}>About</CustomLink>
-            <CustomLink to={"/portfolio"}>Portfolio</CustomLink>
-            <CustomLink to={"/contact"}>Contact</CustomLink>
+           <HashLink  className="mr-10 font-serif text-lg" to={"/home#home"} >
+            <span className="text-white">Home</span>
+          </HashLink>
+          <HashLink className="mr-10 font-serif text-lg" to={"/home#about"}>
+          <span className="text-white">About</span>
+          </HashLink>
+          <HashLink className="mr-10 font-serif text-lg" to={"/home#portfolio"}>
+          <span className="text-white">Portfolio</span>
+          </HashLink>
+          <HashLink className="mr-10 font-serif text-lg" to={"/home#contact"}>
+          <span className="text-white pb-3">Contact</span>
+          </HashLink>
+          <HashLink className="mr-10 font-serif text-lg" to={"/home#blog"}>
+          <span className="text-white pb-3">Blogs</span>
+          </HashLink>
           </ul>
         </div>
         <h1 class=" normal-case text-3xl text-white font-bold ml-10">Pranab.</h1>
