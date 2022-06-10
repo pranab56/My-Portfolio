@@ -43,17 +43,20 @@ const Navber = () => {
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal p-0">
-          <HashLink  className="mr-10 font-serif text-lg" to={"#home"} >
+          <HashLink  className="mr-10 font-serif text-lg" to={"/home#home"} >
             <span className="text-white">Home</span>
           </HashLink>
           <HashLink className="mr-10 font-serif text-lg" to={"/home#about"}>
           <span className="text-white">About</span>
           </HashLink>
-          <HashLink className="mr-10 font-serif text-lg" to={"#portfolio"}>
+          <HashLink className="mr-10 font-serif text-lg" to={"/home#portfolio"}>
           <span className="text-white">Portfolio</span>
           </HashLink>
-          <HashLink className="mr-10 font-serif text-lg" to={"#contact"}>
+          <HashLink className="mr-10 font-serif text-lg" to={"/home#contact"}>
           <span className="text-white pb-3">Contact</span>
+          </HashLink>
+          <HashLink className="mr-10 font-serif text-lg" to={"/home#blog"}>
+          <span className="text-white pb-3">Blogs</span>
           </HashLink>
         </ul>
       </div>

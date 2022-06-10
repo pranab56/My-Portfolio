@@ -1,0 +1,143 @@
+[
+    {
+        "id":1,
+        "fullImage":"https://i.ibb.co/0MSpNM3/project-1.png",
+        "image":{
+            "img1":"https://i.ibb.co/HYLcCCz/Screenshot-1.png",
+            "img2":"https://i.ibb.co/Nym7MrC/Screenshot-2.png",
+            "img3":"https://i.ibb.co/rFSDH5T/Screenshot-3.png"
+        },
+        "name":"Elctrical Parts",
+        "Technologies":[
+            "react tailwind",
+            "react-router-hooks",
+            "react-router",
+            "firebase",
+            "Daisy ui",
+            "react-query"
+        ],
+        "sortDescription":"Through this website Ezion users can easily purchase electrical parts and according to the user's choice.",
+        "description":[
+            "Today I have completed a electrical parts  website related from where anyone can choose any electrical parts Kind of, also can confirm order by confirmation, and also successfully shipped the order from order management system. As this is a e-commerce related website, basically there are some feature about management. In below I will explain it by some point--",
+            "basically there are some feature about management. In below I will explain it by some point--",
+            "In Home page there are 7section related electrical parts where are also a section which is included Product",
+            "By Order Now click anyone will go to a private route page which related confirmation form about Order Confirm if he/she logged in as this is a private route",
+            "After properly fill up confirm form he/she buy a electrical parts and it will added automatically in Dashboard with status",
+            "For normal user, User can see Pay, My Orders and Review section in Dashboard",
+            "Also I have setup admin Dashboard for Manage All Orders, Manage Products, Make Admin and Add New Product",
+            "In Manage All Orders Page, only Admin can manage every orders like shipped or pending or cancelling any order",
+            "In Add New Product, Only Admin can add new Product Item",
+            "In Manage Product Page, only Admin can manage every product, Admin can delete any product from the website",
+            "The most powerful option Make New Admin, only An admin can do this",
+            "As I have setup AdminRoute for secure Admin Dashboard, so user's and admin's dashboard fully separated and secure. No one can access here.",
+            "Also can shipped any order or cancel any order as it's an Admin Dashboard"
+
+        ],
+        "dependency":[
+            "For complete this website I had to follow some technologies.I am going to share it in the below by some point--",
+            "React.js for UI",
+            "tailwind for CSS Library",
+            "Firebase for Authentication and Hosting",
+            "MongoDB Atlas for Database",
+            "Heroku for Hosting Server Code",
+            "React Hook Form for collect data",
+            ".env and .env.local for secure website's data",
+            "And Mainly Node.js, express for Backend Code"
+        ],
+        "liveSite":"https://tires-store.web.app/",
+        "githublink":"https://github.com/pranab56/manufacturer-website-cline-site"
+    },
+    {
+        "id":2,
+        "fullImage":"https://i.ibb.co/56bw8J4/project-2.png",
+        "image":{
+            "img1":"https://i.ibb.co/hmqjXbH/Screenshot-4.png",
+            "img2":"https://i.ibb.co/Z69DCNw/Screenshot-5.png",
+            "img3":"https://i.ibb.co/LhhZ1pd/Screenshot-9.png"
+        },
+        "name":"Food Ware House",
+        "Technologies":[
+            "react-bootstrap",
+            "react-router-hooks",
+            "react-router",
+            "firebase",
+            "heroku"
+            
+        ],
+      "sortDescription":" With this, different types of fruits can be kept in stock and how much will be kept in stock can be easily calculated.",
+        "description":[
+            "I have made a website related warehouse. Where an item can be added, as well as that item can be updated. For example, the quantity of the item can be increased or the quantity can be reduced by delivery. All data will be updated in the database immediately. You can even delete an item if you want. Which is a Mern-Stack website. In below I will explain it by some point--",
+            "basically there are some feature about management. In below I will explain it by some point--",
+            "In home page there have some section like Navbar(for routing), banner(use animation for get real time feel, about section, item section, contact section and also a footer section.",
+            "As this is a warehouse related website so easily can add any new item, and it will be include in database and immediately update automatics.",
+            "If need to deliver any time, then can deliver it and reduce quantity by one.",
+            "Here also a option for stock any specific item form where take a number and then it will stock again. Its also update in database.",
+            "Without login or registration no one can update any item or delete any item as well as can't stock any item as these route is private.",
+            "In Manage All Orders Page, only Admin can manage every orders like shipped or pending or cancelling any order"
+
+        ],
+        "dependency":[
+            "For complete this website I had to follow some technologies.I am going to share it in the below by some point--",
+            "React.js for UI",
+            "React Router Dom for Routing",
+            "React Hook Form for form",
+            "Firebase for Authentication and Hosting",
+            "MongoDB Atlas for Database",
+            "Heroku for Hosting Server Code",
+            "JWT Token for secure data",
+            ".env and .env.local for secure website's data",
+            "And Mainly Node.js, express for Backend Code"
+        ],
+        "liveSite":"https://ware-house-a4892.web.app/",
+        "githublink":"https://github.com/pranab56/ware-house-management-cline-site-website"
+    },
+
+    {
+        "id":3,
+        "fullImage":"https://i.ibb.co/ZXcTVDT/project-3.png",
+        "image":{
+            "img1":"https://i.ibb.co/cT8Pc5G/Screenshot-6.png",
+            "img2":"https://i.ibb.co/sgLZP2X/Screenshot-7.png",
+            "img3":"https://i.ibb.co/6JCyG8n/Screenshot-8.png"
+        },
+        "name":"Gym Trainer",
+        "Technologies":[
+            "react-tailwind",
+            "react-router-hooks",
+            "react-router",
+            "firebase",
+            "react-query",
+            "Daisy ui",
+            "heroku"
+            
+        ],
+      "sortDescription":"A user will be able to easily booking website what kind of zym method to use",
+        "description":[
+            "I have made a website related warehouse. Where an item can be added, as well as that item can be updated. For example, the quantity of the item can be increased or the quantity can be reduced by delivery. All data will be updated in the database immediately. You can even delete an item if you want. Which is a Mern-Stack website. In below I will explain it by some point--",
+            "basically there are some feature about management. In below I will explain it by some point--",
+            "In home page there have some section like Navbar(for routing), banner(use animation for get real time feel, about section, item section, contact section and also a footer section.",
+            "As this is a warehouse related website so easily can add any new item, and it will be include in database and immediately update automatics.",
+            "If need to deliver any time, then can deliver it and reduce quantity by one.",
+            "Here also a option for stock any specific item form where take a number and then it will stock again. Its also update in database.",
+            "Without login or registration no one can update any item or delete any item as well as can't stock any item as these route is private.",
+            "In Manage All Orders Page, only Admin can manage every orders like shipped or pending or cancelling any order"
+
+        ],
+        "dependency":[
+            "For complete this website I had to follow some technologies.I am going to share it in the below by some point--",
+            "React.js for UI",
+            "React Router Dom for Routing",
+            "React Hook Form for form",
+            "Firebase for Authentication and Hosting",
+            "MongoDB Atlas for Database",
+            "Heroku for Hosting Server Code",
+            "JWT Token for secure data",
+            ".env and .env.local for secure website's data",
+            "And Mainly Node.js, express for Backend Code"
+        ],
+        "liveSite":"https://wedding-photographer-fef88.web.app/",
+        "githublink":"https://github.com/pranab56/independent-service-provider-website"
+    }
+   
+    
+]

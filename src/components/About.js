@@ -5,8 +5,6 @@ const About = () => {
   <div className="mx-5">
     <h3 className="text-center text-5xl text-white font-bold mt-32" data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom">About Me</h3>
-    <div className="bg-yellow-500 mt-3 mx-96 h-1 text-center" data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom"></div>
     
       <div id="about" className="lg:flex sm:block sm:ml-10 gap-16 lg:ml-16 mt-20" data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom">

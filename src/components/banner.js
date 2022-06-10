@@ -6,8 +6,8 @@ const banner = () => {
         <div>
             <div class="hero mt-10">
   <div class="lg:hero-content sm:block">
-    <img src={image} class="max-w-sm rounded-lg shadow-2xl" data-aos="fade-right" />
-    <div className='lg:ml-10 sm:ml-0 lg:mt-0 sm:mt-10' data-aos="fade-left">
+    <img src={image} class="lg:max-w-sm w-auto rounded-lg shadow-2xl" data-aos="fade-right" />
+    <div className='lg:ml-10 sm:ml-0 lg:mt-0 mt-10 mx-2' data-aos="fade-left">
       <h1 class="text-4xl text-white font-serif">Hello,</h1>
       <h1 class="text-5xl text-white font-mono">I Am Pranab Kumar</h1>
       <h1 class="text-4xl text-yellow-300 font-serif">

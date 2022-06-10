@@ -1,16 +1,22 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+
 // ..
 
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './components/About';
+import Blog from './components/Blog';
 import Contact from './components/Contact';
+import Detail from './components/Detail';
+import Details from './components/Details';
 import Home from './components/Home';
 import Navber from './components/Navber';
 
 import Portfolio from './components/Portfolio';
 import Service from './components/Service';
+import WebsiteDetails from './components/WebsiteDetails';
+
   
 
 function App() {
@@ -44,12 +50,18 @@ function App() {
     <div>
     <Navber></Navber>
      <Routes>
+
+      
+
+
+
        <Route path='/' element={<Home></Home>}></Route>
        <Route path='/home' element={<Home></Home>}></Route>
        <Route path='/about' element={<About></About>}></Route>
-       <Route path='/service' element={<Service></Service>}></Route>
        <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>
        <Route path='/contact' element={<Contact></Contact>}></Route>
+       <Route path='/blog' element={<Blog></Blog>}></Route>
+       <Route path='/details/:id' element={<Details></Details>}></Route>
      </Routes>
     </div>
   );

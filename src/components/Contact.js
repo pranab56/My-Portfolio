@@ -36,7 +36,7 @@ const Contact = () => {
         
         
        <form onSubmit={handleSubmit} data-aos="fade-up">
-       <div class="mt-6 ">
+       <div class="mt-6">
             <div class="items-center -mx-2 md:flex">
                 <div class="w-full mx-2">
                
